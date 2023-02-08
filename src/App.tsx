@@ -131,7 +131,7 @@ function App() {
         </div>
       </div>
       <div className="small my-3 mb-2">
-        Words not found in the <a href="LingDocs Pashto Dictionary">dictionary</a> are <em>estimated</em> and surrounded by <span style={{ wordBreak: "keep-all" }}>?* ... *?</span>
+        Words not found in the <a href="https://dictionary.lingdocs.com">LingDocs Pashto Dictionary</a> are <em>estimated</em> and surrounded by <span style={{ wordBreak: "keep-all" }}>?* ... *?</span>
       </div>
       <div>
         {missing.length > 0 && <>
