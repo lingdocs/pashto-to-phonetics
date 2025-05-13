@@ -63,16 +63,16 @@ function App() {
         <div className="form-group mb-2">
           <label htmlFor="pashto-text">Pashto Script</label>
           <textarea
-              className="form-control"
-              id="pashto-text"
-              rows={6}
-              value={text}
-              onChange={e => setText(e.target.value)}
-              dir="rtl"
-              spellCheck="false"
-              autoCapitalize="false"
-              autoComplete="false"
-              autoCorrect="false"
+            className="form-control"
+            id="pashto-text"
+            rows={6}
+            value={text}
+            onChange={e => setText(e.target.value)}
+            dir="rtl"
+            spellCheck="false"
+            autoCapitalize="false"
+            autoComplete="false"
+            autoCorrect="false"
           />
         </div>
         <div className="d-flex flex-row justify-content-between align-items-center">
